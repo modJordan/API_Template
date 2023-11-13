@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace PowellApi.Contracts
+namespace ApiTemp.Contracts
 {
     public interface IRepositoryBase<T>
     {

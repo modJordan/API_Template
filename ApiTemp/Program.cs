@@ -1,12 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using PowellApi.Models;
+using ApiTemp.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<PowellApiContext>(dbContextOptions => dbContextOptions
+builder.Services.AddDbContext<ApiTempContext>(dbContextOptions => dbContextOptions
     .UseMySql(
     builder.Configuration["ConnectionStrings:DefaultConnection"],
     ServerVersion.AutoDetect(builder.Configuration["ConnectionStrings:DefaultConnection"]

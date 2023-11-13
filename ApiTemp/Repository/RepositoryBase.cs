@@ -1,14 +1,14 @@
 using Microsoft.EntityFrameworkCore;
-using PowellApi.Models;
+using ApiTemp.Models;
 using System.Linq.Expressions;
-using PowellApi.Contracts;
+using ApiTemp.Contracts;
 
-namespace PowellApi.Repository
+namespace ApiTemp.Repository
 {
   public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
   {
-    protected PowellApiContext RepositoryContext { get; set;}
-    public RepositoryBase(PowellApiContext repositoryContext)
+    protected ApiTempContext RepositoryContext { get; set;}
+    public RepositoryBase(ApiTempContext repositoryContext)
     {
       this.RepositoryContext = repositoryContext;
     }

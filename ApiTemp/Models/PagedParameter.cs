@@ -1,4 +1,4 @@
-namespace PowellApi.Models
+namespace ApiTemp.Models
 {
   public class PagedParameters
   {
