@@ -1,8 +1,8 @@
-# Powell's Book API Library
+# API TEMPLATE
 
-#### By **[Mackenzie Granger, Will Jolley, Greg Stillwell, Jordan Kennedy]**
+#### By **[Jordan K]**
 
-An innovative web application designed to catalog books for Powell's library, facilitating efficient management for librarians and convenient access for patrons, equipped with user authentication and a many-to-many relationship between books and authors.
+[BRIEF DESCRIPTION]
 
 ## Technologies Used
 
@@ -17,7 +17,7 @@ An innovative web application designed to catalog books for Powell's library, fa
 
 ## Description
 
-Powell's Book API Library is a dynamic web application tailored for managing a library's extensive book collection. It offers distinct functionalities for librarians and patrons, focusing on the cataloging, management, and tracking of books. A key feature includes a many-to-many relationship between books and authors, ensuring an organized and user-friendly experience.
+FULL DESCRIPTION
 
 ## Setup/Installation Requirements
 
@@ -49,22 +49,18 @@ Powell's Book API Library is a dynamic web application tailored for managing a l
 - Visit ```localhost:5000``` in your browser to access Pierre's Sweet and Savory Treats.
 
 ## Pagination in API
-The Powell's Book API Library has been enhanced to handle large volumes of records through pagination. This allows for efficient data retrieval and better user experience.
+The API Template has been enhanced to handle large volumes of records through pagination. This allows for efficient data retrieval and better user experience.
 
 # Feature Description
 
-    - The API supports query parameters for pagination, such as /books?page=2 to access different pages of book records.
+    - The API supports query parameters for pagination, such as /object?page=2 to access different pages of book records.
     - This feature ensures performance optimization by loading only a subset of data per request.
 
 ## User Stories
 
-    - As a librarian, I can create, read, update, delete, and list books in the catalog.
-    - As a librarian, I can perform catalog management tasks only when logged in.
-    - As a librarian, I can search for books by author or title for efficient catalog navigation.
-    - As a patron, I can check out books and view their availability.
-    - As a patron, I can view my book checkout history.
-    - As a patron, I receive due date notifications for my checked-out books.
-    - As a librarian, I can view a list of overdue books for follow-up with patrons.
+   - User
+   - Stories 
+   - Here
 
 ## Objectives
 
@@ -79,6 +75,6 @@ Feedback and bug reports are always welcome.
 
 ### License
 
-Feel free to reach out if you have any concerns, feedback, or wish to make contributions to the code. Macg286@gmail.com
+Feel free to reach out if you have any concerns, feedback, or wish to make contributions to the code. 
 
-Copyright (c) 2023 [Mackenzie Granger, Will Jolley, Greg Stillwell, Jordan Kennedy]
+Copyright (c) 2023 [Jordan K]
