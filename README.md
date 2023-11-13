@@ -9,7 +9,6 @@
 - .NET 5.0
 - ASP.NET Core MVC
 - Entity Framework Core
-- Identity for ASP.NET Core
 - Bootstrap
 - C#
 - HTML
